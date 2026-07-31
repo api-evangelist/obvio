@@ -1,8 +1,24 @@
 aid: obvio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/obvio.png
 name: Obvio
-description: 'Obvio is a company surfaced as a portfolio company of bain-capital-ventures, homebrew and
-  added to the API Evangelist network as a stub for enrichment. Sector: physical-ai. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Obvio is an AI-powered traffic-safety platform that helps cities and police departments
+  detect and enforce reckless driving. Its context-aware computer-vision cameras identify stop-sign
+  violations, crosswalk failures, school-zone speeding, and distracted driving, then support law
+  enforcement in reducing infractions and improving road safety. Obvio is a physical-AI company
+  deployed with police departments in Maryland and expanding into new states; it is backed by Bain
+  Capital Ventures, Homebrew, and Khosla Ventures. Added to the API Evangelist network from a VC
+  portfolio lead; no public API or developer surface is currently published.'
 url: https://raw.githubusercontent.com/api-evangelist/obvio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Physical Ai
+- Traffic Safety
+- Public Safety
+- Computer Vision
+- Road Safety
+- Law Enforcement
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +46,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/obvio-domain-security.yml
 - type: Website
   url: https://www.obvio.ai/
+- type: Blog
+  url: https://www.obvio.ai/blog
+- type: Support
+  url: mailto:info@obvio.ai
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
