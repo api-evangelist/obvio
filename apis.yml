@@ -31,6 +31,9 @@ description: 'Obvio is an AI-powered traffic-safety platform that helps cities a
   Capital Ventures, Homebrew, and Khosla Ventures. Added to the API Evangelist network from a VC
   portfolio lead; no public API or developer surface is currently published.'
 url: https://raw.githubusercontent.com/api-evangelist/obvio/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Added to the API Evangelist network from a VC portfolio lead; no public API or developer surface is currently published."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
